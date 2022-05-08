@@ -10,9 +10,11 @@
 		":autodetectPinVersions",
 		"group:monorepos"
 	],
-	"semanticCommits": true,
+	"semanticCommits": "enabled",
 	"onboarding": false,
 	"rangeStrategy": "replace",
 	"timezone": "US/Central",
-	"baseBranch": "main"
+	"baseBranches": [
+		"main"
+	]
 }
