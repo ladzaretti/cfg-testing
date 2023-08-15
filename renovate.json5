@@ -4,6 +4,7 @@
     ':prImmediately',
     ':renovatePrefix',
     ':semanticPrefixFixDepsChoreOthers',
+
     ':updateNotScheduled',
     ':automergeDisabled',
     ':maintainLockFilesDisabled',
