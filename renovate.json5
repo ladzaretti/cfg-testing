@@ -10,12 +10,13 @@
     ':maintainLockFilesDisabled',
     ':autodetectPinVersions',
     'group:monorepos',
-    'helpers:oddIsUnstablePackages'
   ],
   onboarding: false,
-  pinVersions: false,
-  semanticCommits: true,
-  branchPrefix: "dep/",
+  rangeStrategy: 'replace',
+  semanticCommits: 'enabled',
+  branchPrefix: 'dep/',
   timezone: 'US/Central',
-  baseBranch: 'main' // thats a comment
+  baseBranches: [
+    'main',
+  ],
 }
