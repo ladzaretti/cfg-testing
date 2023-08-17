@@ -12,6 +12,7 @@
     'group:monorepos',
     'helpers:oddIsUnstablePackages'
   ],
+
   onboarding: false,
   pinVersions: false,
   semanticCommits: true,
